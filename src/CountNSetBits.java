@@ -14,12 +14,6 @@ public class CountNSetBits {
 
         ans = p*pp/2 + n-pp+1 + countNSetBits(n-pp);
         return ans;
-
-
-
-
-
-
     }
 
 
